@@ -1,0 +1,11 @@
+{
+  "source": "校园社团活动示例数据（来源：校团委社团活动公开信息，演示用）",
+  "activities": [
+    { "id": 1, "name": "秋季校园摄影展", "category": "文化", "place": "学生活动中心一楼展厅", "date": "2026-10-15", "fee": 0, "limit": 120, "joined": 76 },
+    { "id": 2, "name": "篮球新生杯", "category": "体育", "place": "东区体育馆", "date": "2026-10-18", "fee": 0, "limit": 200, "joined": 183 },
+    { "id": 3, "name": "Python 入门实训营", "category": "学术", "place": "综合楼405机房", "date": "2026-10-20", "fee": 50, "limit": 60, "joined": 58 },
+    { "id": 4, "name": "校园音乐节", "category": "文娱", "place": "中心广场", "date": "2026-10-22", "fee": 0, "limit": 500, "joined": 332 },
+    { "id": 5, "name": "书法篆刻工作坊", "category": "文化", "place": "图书馆B座研讨室", "date": "2026-10-24", "fee": 20, "limit": 30, "joined": 21 },
+    { "id": 6, "name": "无人机科普体验", "category": "科创", "place": "东区田径场", "date": "2026-10-26", "fee": 0, "limit": 80, "joined": 64 }
+  ]
+}
