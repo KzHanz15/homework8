@@ -1,0 +1,13 @@
+{
+  "source": "校园自习室使用数据（示例数据，来源：本校图书馆公共统计）",
+  "rooms": [
+    { "id": 1, "name": "综合楼101自习室", "floor": 1, "campus": "本部", "capacity": 80, "status": "开放", "usage": 45 },
+    { "id": 2, "name": "综合楼205自习室", "floor": 2, "campus": "本部", "capacity": 60, "status": "开放", "usage": 39 },
+    { "id": 3, "name": "综合楼303自习室", "floor": 3, "campus": "本部", "capacity": 50, "status": "暂停", "usage": 0 },
+    { "id": 4, "name": "图书馆B座自习室", "floor": 2, "campus": "主馆", "capacity": 120, "status": "开放", "usage": 87 },
+    { "id": 5, "name": "图书馆C座电子阅览室", "floor": 3, "campus": "主馆", "capacity": 40, "status": "满员", "usage": 40 },
+    { "id": 6, "name": "东区博学楼302自习室", "floor": 3, "campus": "东区", "capacity": 70, "status": "开放", "usage": 52 },
+    { "id": 7, "name": "东区博学楼406自习室", "floor": 4, "campus": "东区", "capacity": 66, "status": "开放", "usage": 48 },
+    { "id": 8, "name": "学生活动中心休息室", "floor": 1, "campus": "东区", "capacity": 30, "status": "暂停", "usage": 0 }
+  ]
+}

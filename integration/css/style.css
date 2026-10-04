@@ -1,0 +1,79 @@
+/* 案例复现：迷你版校园信息中心 自定义样式（在 Bootstrap 之后引入） */
+:root {
+  --brand: #2b6cb0;
+  --brand-dark: #1a4971;
+  --bg-soft: #f4f7fb;
+}
+
+body {
+  background-color: var(--bg-soft);
+}
+
+.navbar {
+  background-color: var(--brand-dark);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link.active {
+  font-weight: 700;
+  border-bottom: 2px solid #ffd54f;
+}
+
+.section-title {
+  color: var(--brand-dark);
+  border-left: 4px solid var(--brand);
+  padding-left: 10px;
+  margin: 28px 0 16px;
+}
+
+.card-img-placeholder {
+  height: 130px;
+  background: linear-gradient(135deg, var(--brand), #63b3ed);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.status-badge {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.status-开放 { background: #43a047; }
+.status-暂停 { background: #ff9800; }
+.status-满员 { background: #e53935; }
+
+.room-card {
+  transition: transform 0.15s;
+}
+.room-card:hover {
+  transform: translateY(-3px);
+}
+
+#emptyTip {
+  display: none;
+  text-align: center;
+  color: #6c757d;
+  padding: 20px;
+}
+
+.chart-box {
+  height: 360px;
+}
+
+.error-tip {
+  display: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .chart-box { height: 260px; }
+}
