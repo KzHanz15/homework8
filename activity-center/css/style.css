@@ -1,0 +1,60 @@
+/* 自主实践：校园社团活动中心 自定义样式（在 Bootstrap 之后引入） */
+:root {
+  --brand: #00897b;
+  --brand-dark: #00695c;
+  --bg-soft: #eef6f4;
+}
+
+body {
+  background-color: var(--bg-soft);
+}
+
+.navbar {
+  background-color: var(--brand-dark);
+}
+.navbar .navbar-brand,
+.navbar .nav-link { color: #fff; }
+.navbar .nav-link.active {
+  font-weight: 700;
+  border-bottom: 2px solid #80cbc4;
+}
+
+.section-title {
+  color: var(--brand-dark);
+  border-left: 4px solid var(--brand);
+  padding-left: 10px;
+  margin: 28px 0 16px;
+}
+
+.act-card {
+  transition: transform 0.15s;
+}
+.act-card:hover { transform: translateY(-3px); }
+
+.cat-badge {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 10px;
+  color: #fff;
+  background: var(--brand);
+}
+
+.progress-thin { height: 8px; }
+
+#applyEmpty {
+  display: none;
+  text-align: center;
+  color: #90a4ae;
+  padding: 20px;
+}
+
+.chart-box { height: 340px; }
+
+.error-tip {
+  display: none;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .chart-box { height: 260px; }
+}
